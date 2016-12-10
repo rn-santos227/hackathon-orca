@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 
 <body>
@@ -22,10 +23,6 @@
       </div>
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a>
-          </li>
-          <li><a href="#">Squads</a>
-          </li>
           <form class="navbar-form navbar-left">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Search">
@@ -35,7 +32,11 @@
             </div>
           </form>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right">            
+          <li class="active"><a href="#">Home</a>
+          </li>
+          <li><a href="#">Squads</a>
+          </li>
           <li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a>
           </li>
           <li class="dropdown"><a c="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-wrench"></span> Account Options<span class="caret"></a>
@@ -53,9 +54,19 @@
     </div>
   </nav>
 
-  <div class="container">
-
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="squad-card panel panel-default">
+          <img class="squad-card-logo" src="img/def_group.png">
+          <div class="squad-info">
+            <p>Sample Squad</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+    
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
