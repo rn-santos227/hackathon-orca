@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="100dp"
+              android:background="#cfcecf"
+              android:padding="0dp"
+              android:paddingBottom="0dp"
+              android:paddingLeft="0dp"
+              android:paddingRight="0dp"
+              android:paddingStart="0dp"
+              android:paddingTop="0dp"
+              android:paddingEnd="0dp"
+              android:layout_marginTop="15dp"
+              android:layout_marginStart="15dp"
+              android:layout_marginRight="15dp"
+              android:layout_marginLeft="15dp"
+              android:layout_marginEnd="15dp"
+              android:layout_marginBottom="15dp"
+              android:layout_margin="15dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:text="Boracay na this"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:paddingBottom="2dp"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:progress="50"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingBottom="2dp"/>
+
+    <TextView
+        android:id="@+id/textViewPercentage"
+        android:text="50%"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:paddingBottom="2dp"/>
+</LinearLayout>
